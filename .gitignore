@@ -112,3 +112,5 @@ keys/
 
 # metadata
 _emscripten_sdk/
+config.bat
+node_modules

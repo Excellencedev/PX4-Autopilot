@@ -12,7 +12,7 @@
     "docs:sitemap": "python3 ./scripts/gen_sitemap.py",
     "docs:gen_alt_sidebar_ubuntu": "python3 ./scripts/gen_alt_sidebar.py",
     "docs:get_alt_sidebar_windows": "python ./scripts/gen_alt_sidebar.py",
-    "start": "yarn docs:dev",
+    "start": "node init && yarn docs:dev",
     "linkcheck": "markdown_link_checker_sc -r .. -d docs -e en -i assets"
   },
   "dependencies": {
